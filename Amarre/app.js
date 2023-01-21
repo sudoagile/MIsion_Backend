@@ -20,4 +20,6 @@ btnSi.addEventListener('click',function(e){
 
 });
 
+botones = document.getElementsByTagName("button")
+console.log(botones[0])
 

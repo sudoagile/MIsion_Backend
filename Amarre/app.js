@@ -21,5 +21,10 @@ btnSi.addEventListener('click',function(e){
 });
 
 botones = document.getElementsByTagName("button")
-console.log(botones[0])
+console.log(botones)
 
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = "";
+
+});
